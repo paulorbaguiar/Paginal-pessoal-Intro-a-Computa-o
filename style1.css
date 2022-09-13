@@ -1,0 +1,110 @@
+header {
+	background: #BBBBBB;
+	padding: 20px 0;
+    border: 2px solid #000000;
+	border-radius: 50px;
+}
+
+.caixa {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+.img_cin {
+	max-width: 20%;
+    max-height: 20%;
+}
+
+nav {
+	position: absolute;
+	top: 110px;
+	right: 0;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: bisque;
+
+}
+
+.principal {
+    background: #B98B82;
+    padding: 50px;
+    border: 2px solid #000000;
+	border-radius: 50px;
+}
+
+.main_title {
+    padding-left: 20px; /*note que o padding-left apenas trabalhou com o espaçamento da esquerda. O padding sozinho vai trabalhar uniformemente.*/
+}
+
+
+.text_center {
+    text-align: center;
+}
+
+#banner {
+    width: 100%;
+}
+
+p {
+    text-align: center;
+}
+
+#missao {
+    font-size: 20px;
+}
+
+em strong {
+    color: #4a314d;
+}
+
+.lista {
+    background: #F3B3A6;
+    padding: 20px;
+    border: 2px solid #000000;
+	border-radius: 50px;
+}
+
+.itens {
+    font-style: italic;
+}
+
+ul {
+    display: inline-block; /*Alguns blocos não são intercalaveis em que ele ocupa o espaço todo e o proximo item vai abaixo. O display serve para trabalhar com isso*/
+    vertical-align: top; /*CSS coloca as coisa, exemplo uma lista, na última linha. Aqui você consegue colcoar lá em cima*/
+    width: 20%;
+    margin-right: 15%; /*Pensa tipo um ovo. Padding vai a gema, a clara a border e a casa é o margin*/
+}
+
+.img_benef {
+    max-width: 30%;
+    max-height: 30%;
+}
+
+footer {
+	text-align: center;
+	background: url(bg.jpg);
+	padding: 30px 0;
+    border: 2px solid #000000;
+	border-radius: 50px;
+}
+
+.copyright {
+	color: #ffffff;
+	font-size: 13px;
+	margin-top: 20px;
+}
